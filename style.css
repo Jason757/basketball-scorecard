@@ -1,0 +1,20 @@
+
+.container {
+    width: 200 px;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-team {
+    display: block;
+    margin: 50px;
+    text-align: center;
+}
+
+.guest-team {
+    display: block;
+    margin: 50px;
+    text-align: center;
+}
