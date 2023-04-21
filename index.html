@@ -11,25 +11,27 @@
         <div class="container">
             <div class="home-team">
                 <h1>HOME</h1>
-                <h2 class="home-score">0</h2>
-                <div class="home-button-container">
-                    <button class="home-one"></button>
-                    <button class="home-two"></button>
-                    <button class="home-two"></button>
+                <h2 class="home-score" id="home-Score">0</h2>
+                <div class="buttons">
+                    <button class="btn" onclick="homeScoreIncrementByOne()">+1</button>;
+                    <button class="btn" onclick="homeScoreIncrementByTwo()">+2</button>;
+                    <button class="btn" onclick="homeScoreIncrementByThree()">+3</button>;
+                    <button class="btn" onclick="resetHomeScores()">RESET</button>
                 </div>
 
             </div>
             <div class="guest-team">
                 <h1>GUEST</h1>
-                <h2 class="guest-score">0</h2>
-                <div class="guest-button-container">
-                    <button class="guest-one"></button>
-                    <button class="guest-two"></button>
-                    <button class="guest-two"></button>
+                <h2 class="guest-score" id="guest-Score">0</h2>
+                <div class="buttons">
+                    <button class="btn"  onclick="guestScoreIncrementByOne()"> +1 </button>;
+                    <button class="btn"  onclick="guestScoreIncrementByTwo()">+2</button>;
+                    <button class="btn" onclick="guestScoreIncrementByThree()">+3</button>
+                    <button class="btn" onclick="resetGuestScores()">RESET</button>
                 </div>
-
             </div>
         </div>
     </main>
+    <script src="index.js"></script>
 </body>
 </html>
